@@ -10,6 +10,6 @@ package ec.edu.ups.clases;
  * @author ROBER
  */
 public class Estudiante extends Persona{
-    private 
+     
     
 }

@@ -17,6 +17,6 @@ public class Carrera {
     private List<Materia> materia;
     private int numeroSemestres;
     private int numeroEstudiantes;
-    private Strig titulo; 
+    private String titulo; 
             
 }
