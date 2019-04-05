@@ -10,5 +10,9 @@ package ec.edu.ups.clases;
  * @author ROBER
  */
 public class Sede {
-    
+    private int codigo;
+    private String nobmre;
+    private String direccion;
+    private String telefono;
+    private Carrera carrera;
 }

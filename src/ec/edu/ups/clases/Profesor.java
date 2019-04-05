@@ -10,5 +10,7 @@ package ec.edu.ups.clases;
  * @author ROBER
  */
 public class Profesor extends Persona {
-    
+    private String titulo;
+    private double salario;
+    private String cargo;
 }
