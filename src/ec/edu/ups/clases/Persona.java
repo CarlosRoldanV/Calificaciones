@@ -17,4 +17,43 @@ public class Persona {
     private String direccion;
     private String correo;
     private Sede sede;
+      public void setCodigo (int codigo ){  
+       this.codigo = codigo ;
+}
+      public void setNombre (String nombre  ){  
+       this.nombre = nombre ;
+}
+      public void setCedula (String cedula  ){  
+       this.cedula = cedula;
+}
+      public void setTelefono (String telefono  ){  
+       this.telefono = telefono;
+}
+      public void setDireccion (String direccion){  
+       this.direccion = direccion ;
+}
+      public void setCorreo (String correo){  
+       this.correo = correo ;
+}
+      public int getcodigo(){
+       return this.codigo;
+       }
+      public String getnombre(){
+       return this.nombre;
+       }
+      public String getcedula (){
+       return this.cedula;
+       }
+      public String gettelefono(){
+       return this.telefono;
+       }
+      public String getdireccion(){
+       return this.direccion;
+       }
+      public String getcorreo (){
+       return this.correo;
+       }
+      public Sede getsede(){
+       return this.sede;
+       }
 }

@@ -12,5 +12,12 @@ package ec.edu.ups.clases;
 public class Estudiante extends Persona{
     private Carrera carrera; 
     
-    
+     public void  setCarrera(Carrera carrera ){  
+       this.carrera = carrera; 
+     }
+       
+     
+    public Estudiante (int codig, String nombre, String cedula ){ 
+   
+    }
 }

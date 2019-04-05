@@ -13,4 +13,13 @@ public class Profesor extends Persona {
     private String titulo;
     private double salario;
     private String cargo;
+     public void  setTitulo(String titulo){  
+       this.titulo =titulo ;     
+        }
+      public void setSalario (double salario ){  
+       this.salario = salario ;     
+        }
+      public void setCargo (String cargo){
+       this.cargo = cargo;
+       }
 }
