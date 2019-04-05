@@ -12,5 +12,29 @@ package ec.edu.ups.clases;
 public class Grupo {
     private int codigo;
     private String nombre;
-    private int grupo;
+    private int cupo;
+     public void setCodigoG(int codigo) {
+        this.codigo = codigo;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public void setCupo(int cupo) {
+        this.cupo = cupo;
+    }
+
+    //get
+    public int getCodigo() {
+        return codigo;
+    }
+
+    public String getNommbre() {
+        return nombre;
+    }
+
+    public int getCupo() {
+        return cupo;
+    }
 }

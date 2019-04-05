@@ -36,4 +36,11 @@ public class Profesor extends Persona {
     public double getsalario (int horasTrabajadas, double valorPorHora){
         return salario +(horasTrabajadas * valorPorHora);
     }
+public Profesor(String titulo, double salario, String cargo, int codigo, String nombre, String cedula, String telefono, String direccion, String correo, Sede sede) {
+        super(codigo, nombre, cedula, telefono, direccion, correo, sede);
+        this.titulo = titulo;
+        this.salario = salario;
+        this.cargo = cargo;
+    }
+    
 }

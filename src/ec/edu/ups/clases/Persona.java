@@ -56,4 +56,25 @@ public class Persona {
       public Sede getsede(){
        return this.sede;
        }
+ public Persona(int codigo){
+        this.setCodigo(codigo);
+    }
+
+    public Persona(int codigo, String nombre, String cedula) {
+        this.codigo = codigo;
+        this.nombre = nombre;
+        this.cedula = cedula;
+    }
+
+    public Persona(int codigo, String nombre, String cedula, String telefono, String direccion, String correo, Sede sede) {
+        this.codigo = codigo;
+        this.nombre = nombre;
+        this.cedula = cedula;
+        this.telefono = telefono;
+        this.direccion = direccion;
+        this.correo = correo;
+        this.sede = sede;
+    }
+    
+    
 }

@@ -5,6 +5,8 @@
  */
 package ec.edu.ups.pruebas;
 
+import ec.edu.ups.clases.Sede;
+
 /**
  *
  * @author ROBER
@@ -12,6 +14,6 @@ package ec.edu.ups.pruebas;
 public class Prueba {
      public static void  main (String [] args){
          System.out.println("hola");
-         
+         Sede sedeCuenca= new Sede (1,"sede cuenca", );
      }
 }
