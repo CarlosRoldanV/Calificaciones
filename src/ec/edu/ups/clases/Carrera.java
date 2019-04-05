@@ -5,10 +5,18 @@
  */
 package ec.edu.ups.clases;
 
+import java.util.List;
+
 /**
  *
  * @author ROBER
  */
 public class Carrera {
-    
+    private int codigo;
+    private String nombre;
+    private List<Materia> materia;
+    private int numeroSemestres;
+    private int numeroEstudiantes;
+    private Strig titulo; 
+            
 }
