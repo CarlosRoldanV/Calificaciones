@@ -9,6 +9,6 @@ package ec.edu.ups.clases;
  *
  * @author ROBER
  */
-public class Profesor {
+public class Profesor extends Persona {
     
 }
