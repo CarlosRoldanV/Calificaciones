@@ -27,4 +27,39 @@ public class Carrera {
          public void  setMateria(List<Materia> materia ){  
        this.materia = materia ;     
         }
+         public void setNumeroSemestres(int numeroSemestres) {
+        this.numeroSemestres = numeroSemestres;
+    }
+
+    public void setNumeroEstudiantes(int numeroEstudiantes) {
+        this.numeroEstudiantes = numeroEstudiantes;
+    }
+
+    public void setTitulo(String titulo) {
+        this.titulo = titulo;
+    }
+    public int getcodigo() {
+        return codigo;
+    }
+
+    public String getnombre() {
+        return nombre;
+    }
+
+    public List<Materia> getmaterias() {
+        return materia;
+    }
+
+    public int getnumeroSemestres() {
+        return numeroSemestres;
+    }
+
+    public int getnumeroEstudiantes() {
+        return numeroEstudiantes;
+    }
+
+    public String gettitulo() {
+        return titulo;
+    }
+     
 }

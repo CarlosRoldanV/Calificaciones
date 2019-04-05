@@ -11,8 +11,9 @@ package ec.edu.ups.clases;
  */
 public class Sede {
     private int codigo;
-    private String nobmre;
+    private String nombre;
     private String direccion;
     private String telefono;
     private Carrera carrera;
+    
 }

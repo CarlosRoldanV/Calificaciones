@@ -22,4 +22,18 @@ public class Profesor extends Persona {
       public void setCargo (String cargo){
        this.cargo = cargo;
        }
+         public String gettitulo() {
+        return titulo;
+    }
+
+    public double getsalario() {
+        return salario;
+    }
+
+    public String getcargo() {
+        return cargo;
+    }
+    public double getsalario (int horasTrabajadas, double valorPorHora){
+        return salario +(horasTrabajadas * valorPorHora);
+    }
 }
