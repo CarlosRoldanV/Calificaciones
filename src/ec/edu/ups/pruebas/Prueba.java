@@ -14,7 +14,6 @@ import ec.edu.ups.clases.Sede;
 public class Prueba {
      public static void  main (String [] args){
          System.out.println("hola");
-         Sede sedeCuenca= new Sede (1,"sede cuenca","calle vieja","123");
          
      }
 }

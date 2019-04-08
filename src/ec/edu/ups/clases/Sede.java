@@ -21,6 +21,8 @@ public class Sede {
    public Sede(){
          carrera=new ArrayList<>();
      }
+
+    
     public void setCodigo(int codigo) {
         this.codigo = codigo;
     }
