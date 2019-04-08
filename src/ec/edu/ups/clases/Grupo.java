@@ -37,4 +37,10 @@ public class Grupo {
     public int getCupo() {
         return cupo;
     }
+
+    @Override
+    public String toString() {
+        return "Grupo{" + "codigo=" + codigo + ", nombre=" + nombre + ", cupo=" + cupo + '}';
+    }
+    
 }

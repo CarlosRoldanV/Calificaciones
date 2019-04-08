@@ -44,30 +44,36 @@ public class Carrera {
     public void setTitulo(String titulo) {
         this.titulo = titulo;
     }
-    public int getcodigo() {
+    public int getCodigo() {
         return codigo;
     }
 
-    public String getnombre() {
+    public String getNombre() {
         return nombre;
     }
 
-    public List<Materia> getmaterias() {
+    public List<Materia> getMaterias() {
         return materia;
     }
 
-    public int getnumeroSemestres() {
+    public int getNumeroSemestres() {
         return numeroSemestres;
     }
 
-    public int getnumeroEstudiantes() {
+    public int getNumeroEstudiantes() {
         return numeroEstudiantes;
     }
 
-    public String gettitulo() {
+    public String getTitulo() {
         return titulo;
     }
+
+    @Override
+    public String toString() {
+        return "Carrera{" + "codigo=" + codigo + ", nombre=" + nombre + ", materia=" + materia + ", numeroSemestres=" + numeroSemestres + ", numeroEstudiantes=" + numeroEstudiantes + ", titulo=" + titulo + '}';
+    }
+    
      public void agregarMateria(Materia materia){
-        materias.add(materia);
+        
     }
 }

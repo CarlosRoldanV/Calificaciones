@@ -9,7 +9,7 @@ package ec.edu.ups.clases;
  *
  * @author ROBER
  */
-public class HistorialCalificacion {
+public class HistorialCalificacionEstudiante {
     private Materia materia;
     private Estudiante estudiante;
     private int aprovechamiento1;
@@ -64,4 +64,10 @@ public class HistorialCalificacion {
     public int getExamen2() {
         return examen2;
     }
+
+    @Override
+    public String toString() {
+        return "HistorialCalificacionEstudiante{" + "materia=" + materia + ", estudiante=" + estudiante + ", aprovechamiento1=" + aprovechamiento1 + ", examen1=" + examen1 + ", aprovechamiento2=" + aprovechamiento2 + ", examen2=" + examen2 + '}';
+    }
+    
 }

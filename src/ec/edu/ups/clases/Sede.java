@@ -65,6 +65,6 @@ public class Sede {
     
     
     public void agregarCarrera(Carrera carrera){
-       carrera.add(Carreras);
+      
     }
 }
